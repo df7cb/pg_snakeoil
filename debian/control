@@ -7,6 +7,7 @@ Uploaders:
 Build-Depends:
  debhelper-compat (= 13),
  architecture-is-64-bit <!pkg.postgresql.32-bit>,
+ clamav-freshclam <!nocheck> | clamav-data <!nocheck>,
  libclamav-dev,
  postgresql-all <!nocheck>,
  postgresql-server-dev-all,
@@ -21,6 +22,7 @@ Depends:
  ${misc:Depends},
  ${postgresql:Depends},
  ${shlibs:Depends},
+Recommends:
  clamav-freshclam | clamav-data,
 Breaks:
  ${postgresql:Breaks},

@@ -1,8 +1,9 @@
 pg-snakeoil (1.4-4) unstable; urgency=medium
 
-  * Promote recommends on clamav-freshclam | clamav-data to depends.
+  * Add clamav-freshclam | clamav-data to Build-Depends.
     On clamav 1.5, the /etc/clamav/certs/clamav.crt file is required.
     (Provided by freshclam, data is provided by freshclam on this version.)
+    Also add to test dependencies.
 
  -- Christoph Berg <myon@debian.org>  Mon, 13 Jul 2026 18:49:00 +0000
 
