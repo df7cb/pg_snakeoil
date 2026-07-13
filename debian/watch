@@ -1,2 +1,5 @@
-version=4
-https://github.com/df7cb/pg_snakeoil/tags .*/v(.*).tar.gz
+Version: 5
+
+Template: Github
+Owner: df7cb
+Project: pg_snakeoil

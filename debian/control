@@ -10,7 +10,7 @@ Build-Depends:
  libclamav-dev,
  postgresql-all <!nocheck>,
  postgresql-server-dev-all,
-Standards-Version: 4.7.2
+Standards-Version: 4.7.4
 Homepage: https://github.com/df7cb/pg_snakeoil
 Vcs-Browser: https://github.com/df7cb/pg_snakeoil
 Vcs-Git: https://github.com/df7cb/pg_snakeoil.git
@@ -21,7 +21,6 @@ Depends:
  ${misc:Depends},
  ${postgresql:Depends},
  ${shlibs:Depends},
-Recommends:
  clamav-freshclam | clamav-data,
 Breaks:
  ${postgresql:Breaks},
